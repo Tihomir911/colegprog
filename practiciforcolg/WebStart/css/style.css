@@ -1,0 +1,343 @@
+/* ========================================
+   БАЗОВЫЕ НАСТРОЙКИ
+   ======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    color: #1f2937;
+
+    background-color: #eef3f8;
+
+    line-height: 1.5;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+header {
+    background-color: #163a5f;
+
+    color: white;
+
+    padding: 20px;
+}
+
+
+.header-container {
+    width: 100%;
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+
+header h1 {
+    margin-top: 0;
+
+    margin-bottom: 10px;
+}
+
+
+/* ========================================
+   НАВИГАЦИЯ
+   ======================================== */
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    padding: 8px 10px;
+
+    border-radius: 6px;
+}
+
+
+nav a:hover {
+    background-color: #1f5f91;
+}
+
+
+/* ========================================
+   ОСНОВНАЯ ЧАСТЬ
+   ======================================== */
+
+main {
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 32px auto;
+
+    padding: 0 20px;
+}
+
+
+/* ========================================
+   КАРТОЧКИ
+   ======================================== */
+
+section {
+    background-color: white;
+
+    padding: 28px;
+
+    border: 1px solid #d7e0e8;
+
+    border-radius: 14px;
+
+    margin-bottom: 24px;
+}
+
+
+section h2 {
+    margin-top: 0;
+
+    color: #163a5f;
+}
+
+
+.section-label {
+    margin-bottom: 5px;
+
+    color: #2d6fa6;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+
+/* ========================================
+   ИЗОБРАЖЕНИЕ
+   ======================================== */
+
+.main-image {
+    display: block;
+
+    width: 100%;
+
+    max-width: 700px;
+
+    height: auto;
+
+    margin: 25px auto;
+
+    border-radius: 14px;
+
+    border: 1px solid #d7e0e8;
+}
+
+
+/* ========================================
+   ФОРМА
+   ======================================== */
+
+form {
+    margin-top: 25px;
+}
+
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+
+.form-group > label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-weight: 600;
+}
+
+
+/* ========================================
+   INPUT, SELECT, TEXTAREA
+   ======================================== */
+
+input,
+select,
+textarea {
+    width: 100%;
+
+    font: inherit;
+
+    padding: 11px 12px;
+
+    border: 1px solid #b8c6d3;
+
+    border-radius: 8px;
+
+    background-color: white;
+}
+
+
+/* ========================================
+   RADIO И CHECKBOX
+   ======================================== */
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+.radio-label,
+.checkbox-label {
+    display: inline-block;
+
+    margin-right: 20px;
+
+    font-weight: normal;
+}
+
+
+/* ========================================
+   FIELDSET
+   ======================================== */
+
+fieldset {
+    border: 1px solid #b8c6d3;
+
+    border-radius: 8px;
+
+    padding: 14px;
+}
+
+
+legend {
+    padding: 0 6px;
+
+    font-weight: 600;
+}
+
+
+/* ========================================
+   FOCUS
+   ======================================== */
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2d6fa6;
+
+    outline: none;
+}
+
+
+/* ========================================
+   КНОПКИ
+   ======================================== */
+
+button {
+    border: 0;
+
+    padding: 12px 18px;
+
+    border-radius: 8px;
+
+    background-color: #1f5f91;
+
+    color: white;
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #174a72;
+}
+
+
+/* Ссылка, оформленная как кнопка */
+
+.button-link {
+    display: inline-block;
+
+    margin-top: 10px;
+
+    padding: 12px 18px;
+
+    border-radius: 8px;
+
+    background-color: #1f5f91;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: 700;
+}
+
+
+.button-link:hover {
+    background-color: #174a72;
+}
+
+
+/* ========================================
+   ТАБЛИЦА
+   ======================================== */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+
+th,
+td {
+    padding: 12px;
+
+    border: 1px solid #b8c6d3;
+
+    text-align: left;
+}
+
+
+th {
+    background-color: #163a5f;
+
+    color: white;
+}
+
+
+/* ========================================
+   СПИСКИ
+   ======================================== */
+
+li {
+    margin-bottom: 7px;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    color: #5f6b76;
+}

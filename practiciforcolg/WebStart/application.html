@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>grushapatamus — Оставить заявку</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>grushapatamus</h1>
+
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="about.html">О центре</a>
+                <a href="schedule.html">Расписание</a>
+                <a href="application.html">Оставить заявку</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section>
+
+            <p class="section-label">ЗАПИСЬ НА ОБУЧЕНИЕ</p>
+
+            <h2>Оставить заявку</h2>
+
+            <p>
+                Заполните форму. Мы свяжемся с вами после получения заявки.
+            </p>
+
+
+            <form action="#" method="get">
+
+                <!-- Имя -->
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Ваше имя
+                    </label>
+
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        placeholder="Например, Алексей"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- E-mail -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="name@example.com"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Телефон -->
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Телефон
+                    </label>
+
+                    <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        placeholder="+7 900 000-00-00"
+                    >
+
+                </div>
+
+
+                <!-- Курс -->
+
+                <div class="form-group">
+
+                    <label for="course">
+                        Выберите курс
+                    </label>
+
+                    <select
+                        id="course"
+                        name="course"
+                        required
+                    >
+
+                        <option value="">
+                            — Выберите вариант —
+                        </option>
+
+                        <option value="html">
+                            HTML5
+                        </option>
+
+                        <option value="design">
+                            Web-дизайн
+                        </option>
+
+                        <option value="js">
+                            JavaScript
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Дата -->
+
+                <div class="form-group">
+
+                    <label for="date">
+                        Желаемая дата
+                    </label>
+
+                    <input
+                        id="date"
+                        name="date"
+                        type="date"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Количество -->
+
+                <div class="form-group">
+
+                    <label for="people">
+                        Количество участников
+                    </label>
+
+                    <input
+                        id="people"
+                        name="people"
+                        type="number"
+                        min="1"
+                        max="10"
+                        value="1"
+                    >
+
+                </div>
+
+
+                <!-- Формат обучения -->
+
+                <div class="form-group">
+
+                    <fieldset>
+
+                        <legend>
+                            Формат обучения
+                        </legend>
+
+                        <label class="radio-label">
+
+                            <input
+                                type="radio"
+                                name="format"
+                                value="offline"
+                                checked
+                            >
+
+                            Очно
+
+                        </label>
+
+
+                        <label class="radio-label">
+
+                            <input
+                                type="radio"
+                                name="format"
+                                value="online"
+                            >
+
+                            Онлайн
+
+                        </label>
+
+                    </fieldset>
+
+                </div>
+
+
+                <!-- Самостоятельное задание: уровень -->
+
+                <div class="form-group">
+
+                    <label for="level">
+                        Ваш уровень
+                    </label>
+
+                    <select
+                        id="level"
+                        name="level"
+                        required
+                    >
+
+                        <option value="">
+                            — Выберите уровень —
+                        </option>
+
+                        <option value="beginner">
+                            С нуля
+                        </option>
+
+                        <option value="basic">
+                            Есть базовые знания
+                        </option>
+
+                        <option value="advanced">
+                            Уверенный пользователь
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Самостоятельное задание: способ связи -->
+
+                <div class="form-group">
+
+                    <fieldset>
+
+                        <legend>
+                            Как с вами связаться?
+                        </legend>
+
+                        <label class="radio-label">
+
+                            <input
+                                type="radio"
+                                name="contact"
+                                value="phone"
+                                checked
+                            >
+
+                            Телефон
+
+                        </label>
+
+
+                        <label class="radio-label">
+
+                            <input
+                                type="radio"
+                                name="contact"
+                                value="email"
+                            >
+
+                            E-mail
+
+                        </label>
+
+                    </fieldset>
+
+                </div>
+
+
+                <!-- Комментарий -->
+
+                <div class="form-group">
+
+                    <label for="comment">
+                        Комментарий
+                    </label>
+
+                    <textarea
+                        id="comment"
+                        name="comment"
+                        rows="5"
+                        placeholder="Напишите вопрос или пожелание"
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Checkbox -->
+
+                <div class="form-group">
+
+                    <label class="checkbox-label">
+
+                        <input
+                            type="checkbox"
+                            name="agreement"
+                            required
+                        >
+
+                        Я подтверждаю введённые данные
+
+                    </label>
+
+                </div>
+
+
+                <button type="submit">
+                    Отправить заявку
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>Что произойдёт после отправки?</h2>
+
+            <ol>
+                <li>
+                    Мы получим вашу заявку.
+                </li>
+
+                <li>
+                    Сотрудник учебного центра свяжется с вами.
+                </li>
+
+                <li>
+                    Вы сможете уточнить программу и начать обучение.
+                </li>
+            </ol>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>grushapatamus, 2026</p>
+    </footer>
+
+</body>
+
+</html>
